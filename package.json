@@ -1,5 +1,5 @@
 {
-  "name": "copy-of-refleksjon:-menneskesyn-&-selvledelse",
+  "name": "copy-of-refleksjon--menneskesyn-&-selvledelse",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -20,3 +20,4 @@
     "vite": "^6.2.0"
   }
 }
+
