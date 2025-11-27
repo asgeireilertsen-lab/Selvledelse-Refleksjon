@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
+    // 🔹 VIKTIG: repo-navnet med skråstreker
+    base: '/Selvledelse-Refleksjon/',
+
     server: {
       port: 3000,
       host: '0.0.0.0',
@@ -21,4 +24,5 @@ export default defineConfig(({ mode }) => {
     },
   };
 });
+
 
