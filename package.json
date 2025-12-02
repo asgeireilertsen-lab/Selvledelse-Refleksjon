@@ -1,20 +1,12 @@
 {
-  "name": "copy-of-refleksjon--menneskesyn-&-selvledelse",
+  "name": "copy-of-refleksjon:-menneskesyn-&-selvledelse",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
-  // 🔹 LEGG TIL DENNE LINJA:
-  "homepage": "https://asgeireilertsen-lab.github.io/Selvledelse-Refleksjon/",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-
-    // 🔹 LEGG TIL DISSE TO:
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react-dom": "^19.2.0",
@@ -25,11 +17,6 @@
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
-    "vite": "^6.2.0",
-
-    // 🔹 LEGG TIL DENNE:
-    "gh-pages": "^6.1.1"
+    "vite": "^6.2.0"
   }
 }
-
-
